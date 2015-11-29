@@ -2,7 +2,7 @@ __author__ = 'Chenxi'
 from abc import abstractmethod
 import sys
 #The below is a abstract base class for apr and credit_limit
-#therefore,apr and credit_limit must have value to run the program
+#therefore,apr and credit_limit must have values assigned ahead to run the program
 #Yet,they could be and have to be defined in its derived class
 class Base():
     @abstractmethod
